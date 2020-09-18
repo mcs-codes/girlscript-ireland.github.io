@@ -373,42 +373,6 @@ button.main-button:hover {
 header
 --------------------------------------------- 
 */
-
-header .social {
-  overflow: hidden;
-  margin-top: 10px;
-  text-align: center;
-}
-
-
-
-header .social li a {
-  color: #9d5bd9;
-  text-align: center;
-  background-color: #fff;
-  width: 36px;
-  height: 36px;
-  line-height: 36px;
-  border-radius: 50%;
-  display: block;
-  font-size: 16px;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-}
-
-header .social li a:hover {
-  background-color: #ff589e;
-  color: #fff;
-}
-
-@media (max-width: 767px) {
-  .mobileRemove{
-      display:none;
-  }
-}
-
 .header-area {
   position: fixed;
   top: 30px;
@@ -427,25 +391,6 @@ header .social li a:hover {
   border-radius: 40px;
   min-height: 80px;
   background: #fff;
-}
-
-.side-nav {
-  box-shadow: 0px 0px 1px rgba(0,0,0,0.1);
-  border-radius: 40px;
-  min-height: 80px;
-  padding-right: 20px;
-  
-  /*background: #fff;*/
-}
-.circle
-{
-  border-radius: 60px;
-    height: 36px;
-    width: 36px;
-
-    display: flex;
-
-    background: #fff;
 }
 
 .header-area .main-nav .logo {
