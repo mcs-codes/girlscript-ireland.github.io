@@ -33,6 +33,12 @@ font & reset css
 reset
 --------------------------------------------- 
 */
+
+.carousel {
+  width:500px;
+  height:500px;
+}
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
 pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
 s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
@@ -333,7 +339,7 @@ a.main-button {
   border-radius: 20px;
   padding: 12px 20px;
   background-color: #8261ee;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   color: #fff;
   letter-spacing: 0.25px;
   -webkit-transition: all 0.3s ease 0s;
@@ -449,8 +455,10 @@ header .social li a:hover {
 }
 
 .header-area .main-nav .logo {
+  color: black;
+  font-weight: 500;
   float: left;
-  margin-top: 37px;
+  margin-top: 0px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -459,6 +467,8 @@ header .social li a:hover {
 }
 
 .header-area .main-nav .logo img {
+  width: 3em;
+  height: auto;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -603,7 +613,7 @@ header .social li a:hover {
 }
 
 .header-area.header-sticky .logo {
-  margin-top: 25px;
+  margin-top: 17px;
 }
 
 .header-area.header-sticky .nav {
@@ -639,7 +649,7 @@ header .social li a:hover {
     padding: 0px;
   }
   .header-area .logo {
-    margin-top: 27px !important;
+    margin-top: 17px !important;
     margin-left: 30px;
   }
   .header-area .menu-trigger {
@@ -1489,6 +1499,11 @@ contact
   height: 150px;
   resize: none;
   padding: 20px;
+}
+
+.fa.fa-map-marker,
+.fa.fa-envelope {
+  font-size: 1.2em;
 }
 
 /* 
