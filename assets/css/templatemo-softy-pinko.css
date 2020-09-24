@@ -33,11 +33,6 @@ font & reset css
 reset
 --------------------------------------------- 
 */
-
-.circular{
-    border-radius: 50%;
-  
-}
 .carousel {
   width:500px;
   height:500px;
@@ -411,12 +406,6 @@ header .social li a {
 header .social li a:hover {
   background-color: #ff589e;
   color: #fff;
-}
-
-@media (max-width: 767px) {
-  .mobileRemove{
-      display:none;
-  }
 }
 
 .header-area {
@@ -1503,6 +1492,10 @@ contact
   height: 150px;
   resize: none;
   padding: 20px;
+}
+
+.fa {
+  transform: scale(1.1,1);
 }
 
 .fa.fa-map-marker,
